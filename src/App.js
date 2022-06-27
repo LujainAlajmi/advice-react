@@ -13,7 +13,10 @@ function App() {
   };
   useEffect(() => {
     console.log("use effect");
+    console.log("use effect");
+
     getAdvice();
+
   }, []);
   return (
     <div>
