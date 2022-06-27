@@ -22,9 +22,7 @@ function App() {
         <div className=" bg-DarkGrayishBlue rounded-[25px] m-auto sm:w-[540px]  xs:w-[343px]">
           {/* sm:h-[332px] xs:h-[314px] */}
           <div className="text-center p-5">
-            <p className=" uppercase text-sm text-NeonGreen py-4">
-              advice # {advice.id}
-            </p>
+            <p className=" uppercase text-sm text-NeonGreen py-4"></p>
             <h1 className=" text-LightCyan text-lg font-bold px-8">
               &quot;{advice.advice}&quot;
             </h1>
